@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell1" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="114"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="114"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mle-Es-A90">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="94"/>
+                        <color key="backgroundColor" red="0.83168035750000002" green="0.24144953490000001" blue="0.1614664197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mle-Es-A90" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1CM-Wq-MKS"/>
+                <constraint firstItem="mle-Es-A90" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ipy-Oi-IM3"/>
+                <constraint firstAttribute="trailing" secondItem="mle-Es-A90" secondAttribute="trailing" id="Zpm-ld-ER4"/>
+                <constraint firstAttribute="bottom" secondItem="mle-Es-A90" secondAttribute="bottom" constant="20" id="gzO-jI-1pD"/>
+            </constraints>
+            <size key="customSize" width="150" height="114"/>
+            <point key="canvasLocation" x="84" y="86"/>
+        </collectionViewCell>
+    </objects>
+</document>
